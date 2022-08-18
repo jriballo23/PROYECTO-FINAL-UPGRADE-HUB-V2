@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.body-profile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Ubuntu', sans-serif;
+        max-width: 1000px;
+        width: 100%;
+        margin-top: 50px;
+        
+        .content-profile{
+            
+            display:flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            flex-direction:column;
+            width: 100%;
+            padding: 5px;
+            margin: 10px;
+            
+            .datos-profile{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                width: 100%;
+                max-width: 1200px;
+                
+                flex-direction: column;
+                background-color: #5a5a5a;
+                box-shadow: 1px 1px 7px black;
+                color: white;
+
+                .user{
+                  margin-bottom: 8px;
+                  text-align: center;
+                }
+            }
+        }
+
+        .card-profile{
+            border: solid 2px darkgray;
+            width: 300px;
+            border-radius: 10px;
+            padding: 5px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 1px 1px 7px #000000;
+        
+            .favorite-img{
+                width: 100%;
+                height: 100%;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            .favorite-delete{
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+                font-weight: bold;
+                height: 30px;
+                border: none;
+            }
+            .favorite-delete:hover{
+                background-color: rgb(234, 137, 137);
+            }
+        }
+        
+    }
+    .label-profile{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        text-decoration: underline orangered;
+        text-underline-position: under;    
+    }
+
+.card-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.datos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;;
+}
+
+@media (max-width:769px) {  
+    .body-profile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Ubuntu', sans-serif;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 100px;
+        
+        .content-profile{
+            
+            display:flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            flex-direction:column;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            
+            .datos-profile{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                display: flex;
+                width: 100%;
+                height: 300px;
+                max-width: 1200px;
+                border-radius: 0px;
+                flex-direction: column;
+                background-color: rgb(123, 123, 123);
+                box-shadow: 1px 1px 7px black;
+
+                .user{
+                  margin-bottom: 8px;
+                  text-align: center;
+                }
+            }
+        }
+
+        .card-profile{
+            border: solid 0px darkgray;
+            width: 300px;
+            border-radius: 0px;
+            padding: 5px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 0px 0px #000000;
+            background-color: #5a5a5a;
+            border-radius: 5px;
+        
+            .favorite-img{
+                width: 100%;
+                height: 100%;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .favorite-delete{
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                font-weight: bold;
+                height: 30px;
+                border: none;
+            }
+            .favorite-delete:hover{
+                background-color: rgb(234, 137, 137);
+            }
+        }
+        
+    }
+    .label-profile{
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 12px;
+    }
+
+.card-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.datos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;;
+}
+}

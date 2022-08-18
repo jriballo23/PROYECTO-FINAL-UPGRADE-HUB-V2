@@ -1,0 +1,178 @@
+
+.content-form-register{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 300px;
+    height: 460px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    .content-register{
+        width: 250px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+
+        .input-name{
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+        }
+
+        .input-nick{
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+
+        .input-birth{
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+  
+        .input-cp{
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+
+        .input-email{
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+
+        .input-password{
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+    }
+    .btn-register{
+        border: none;
+        width: 250px;
+        height: 30px;
+        margin-bottom: 20px;
+        background-color:#ef5a28;
+        color: white;
+
+    }
+    .btn-register:hover{
+        background-color:#ef5a28;
+        color: white;
+        box-shadow: 1px 1px 5px rgb(0, 0, 0);
+    }
+}
+
+@media (max-width:769px) {  
+    
+.content-form-register{
+    display: flex;
+    position: static;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid 2px;
+    width: 100%;
+    box-shadow: 1px 1px 10px black;
+    height: 46.5rem;
+    align-items: center;
+    background-color:#ef5a28;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    .content-register{
+        position: absolute;
+        top: 300px;
+        width: 250px;
+        font-weight: bold;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      
+
+        .label-name{
+            border-radius: 0px;
+            margin-right: 10px;
+        }
+        .input-name{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+        }
+
+        .label-nick{
+            border-radius: 0px;
+            margin-right: 10px;
+        }
+        .input-nick{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-birth{
+            border-radius: 0px;
+            margin-right: 17px;
+        }
+        .input-birth{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-cp{
+            border-radius: 0px;
+            margin-right: 65px;
+        }
+        .input-cp{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-email{
+            border-radius: 0px;
+            margin-right: 45px;
+            
+        }
+        .input-email{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+        .label-password{
+            border-radius: 0px;
+            margin-right: 12px;
+        }
+        .input-password{
+            border-radius: 10px;
+            height: 30px;
+            padding-left: 10px;
+            margin-top:10px;
+        }
+    }
+    .btn-register{
+        position: absolute;
+        bottom: 210px;
+        border: none;
+        border-radius: 30px;
+        width: 80px;
+        height: 30px;
+        margin-bottom: 20px;
+
+    }
+    .btn-register:hover{
+        background-color:#ef5a28;
+        color: white;
+        box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    }
+}
+}

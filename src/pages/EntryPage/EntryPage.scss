@@ -1,0 +1,80 @@
+.Body{
+margin-top: 150px;
+display: flex;
+flex-direction: row;
+height: 800px;
+
+
+    .Left-Container{
+        border-right: solid 0.5px black;
+        padding-right: 120px;
+        display: flex;
+        align-items: center;
+    }
+
+    .Right-Container{
+        text-align: center;
+        padding-left: 120px;
+        width: 504px;
+
+         .Register-Form-Off{
+            visibility: hidden;
+         } 
+
+        .Register-Form-On{
+            visibility:visible;
+            position: absolute;
+            top: 220px;
+            right: 555px;
+            z-index: 1;
+        }
+        
+        .Login-Form-Off{
+            visibility: hidden;
+         } 
+
+        .Login-Form-On{
+            visibility:visible;
+            position: absolute;
+            right: 555px;
+        }
+
+        .Btn-Content{
+            display: flex;
+            justify-content: center;
+            .Register-Btn{
+                width: 250px;
+                height: 30px;
+                position: fixed;
+                z-index: 2;
+                top:535px;
+                border:none;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .Register-Btn:hover {
+                box-shadow: 1px 1px 5px black;
+                background-color:#ef5a28;
+                color: white;
+            }
+
+            .Login-Btn{
+                width: 250px;
+                height: 30px;
+                position: fixed;
+                z-index: 2;
+                top:735px;
+                border:none;
+                font-family: Arial, Helvetica, sans-serif;
+                
+            }
+            .Login-Btn:hover {
+                box-shadow: 1px 1px 5px black;
+                background-color:#ef5a28;
+                color: white;
+            }
+        }
+       
+    }
+
+}

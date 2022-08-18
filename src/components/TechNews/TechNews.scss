@@ -1,0 +1,39 @@
+.news-container {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  margin: 15px;
+  .news-card {
+    margin: 15px auto;
+    min-height: 540px;
+    &:first-child {
+      margin-top: 20px;
+    }
+    &:last-child {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+.p-card-title {
+  height: 160px;
+}
+
+/* .panel {
+  z-index: 100;
+} */
+
+@media (min-width: 768px) {
+  .news-container {
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+  }
+  .news-card-component {
+    width: 25em;
+  }
+}
